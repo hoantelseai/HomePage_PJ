@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewpoint"
+      content="width = device-with, intital-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta name="robots" content="notindex,nofollow" />
+    <meta name="description" content="HomePagePoject" />
+    <meta proverty="description" content="HomePagePoject" />
+    <title>HomePagePoject</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="style_pj.css" />
+    <!-- Web Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/
+all.min.css"
+    />
+    <link rel="shortcut icon" href="./img2/favicon.ico" />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+      }
+
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid #000;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="head-in">
+          <div class="container">
+            <img class="bg-image" src="img2/wallpaperbetter.jpg" alt="COFFE" />
+            <div class="centered-text">COFFEE</div>
+            <!-- <h1>COFFEE</h1></div> -->
+            <div class="topnav">
+              <nav>
+                <ul>
+                  <li><a href="#menu">MENU</a></li>
+                  <li><a href="#about">ABOUT</a></li>
+                  <li><a href="#location">LOCATION</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- MENU↓ -->
+      <section id="menu">
+        <div>
+          <!-- PARALLAX ↓-->
+          <div class="parallax_box">
+            <div class="parallax_content santorini2560">MENU</div>
+            <div class="front_content">
+              <div class="grid-container">
+                <div class="grid-item-left">
+                  <div class="menu-column">
+                    <dl>
+                      <h3>COFFEE</h3>
+                      <dt>
+                        <button class="myBtn" data-name="アメリカンコーヒー">
+                          アメリカンコーヒー
+                        </button>
+                      </dt>
+                      <dd>$450</dd>
+                      <dt>
+                        <button class="myBtn" data-name="ブレンドコーヒー">
+                          ブレンドコーヒー
+                        </button>
+                      </dt>
+                      <dd>$500</dd>
+                      <dt>
+                        <button class="myBtn" data-name="カフェオレ">
+                          カフェオレ
+                        </button>
+                      </dt>
+                      <dd>$600</dd>
+                      <dt>
+                        <button class="myBtn" data-name="カフェモカ">
+                          カフェモカ
+                        </button>
+                      </dt>
+                      <dd>$600</dd>
+                      <dt>
+                        <button class="myBtn" data-name="カフェラテ">
+                          カフェラテ
+                        </button>
+                      </dt>
+                      <dd>$600</dd>
+                      <dt>
+                        <button class="myBtn" data-name="カプチーノ">
+                          カプチーノ
+                        </button>
+                      </dt>
+                      <dd>$700</dd>
+                      <dt>
+                        <button class="myBtn" data-name="ミルク">ミルク</button>
+                      </dt>
+                      <dd>$500</dd>
+                      <dt>
+                        <button class="myBtn" data-name="ココア">ココア</button>
+                      </dt>
+                      <dd>$700</dd>
+                      <dt>
+                        <button class="myBtn" data-name="オレンジジュース">
+                          オレンジジュース
+                        </button>
+                      </dt>
+                      <dd>$500</dd>
+                      <dt>
+                        <button class="myBtn" data-name="コーラ">コーラ</button>
+                      </dt>
+                      <dd>$500</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="grid-item-right">
+                  <div class="menu-column">
+                    <dl>
+                      <h3>FOOD</h3>
+                      <dt>
+                        <button class="myBtn" data-name="フレンチトースト">
+                          フレンチトースト
+                        </button>
+                      </dt>
+                      <dd>$900</dd>
+                      <dt>
+                        <button class="myBtn" data-name="ピザトースト">
+                          ピザトースト
+                        </button>
+                      </dt>
+                      <dd>$800</dd>
+                      <dt>
+                        <button class="myBtn" data-name="日本のケーキ">
+                          日本のケーキ
+                        </button>
+                      </dt>
+                      <dd>$600</dd>
+                    </dl>
+                  </div>
+
+                  <div class="menu-column">
+                    <dl>
+                      <h3>OTHER</h3>
+                      <dt>
+                        <button class="myBtn" data-name="サラダ">サラダ</button>
+                      </dt>
+                      <dd>$500</dd>
+                      <dt>
+                        <button class="myBtn" data-name="モーニングセット">
+                          モーニングセット
+                        </button>
+                      </dt>
+                      <dd>$1000</dd>
+                      <dt>
+                        <button class="myBtn" data-name="ランチセット">
+                          ランチセット
+                        </button>
+                      </dt>
+                      <dd>$1100</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODAL BOX ↓ -->
+      <!--AMERICA COFFEE  -->
+
+      <div id="menuModal" class="modal">
+        <div class="modal-content">
+          <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i>
+          </div>
+          <div id="menuInfo" class="info">
+            <div class="modal-inner">
+              <div class="menu-content">
+                <p id="menuName"></p>
+                <p id="menuDescription" class="menu-description"></p>
+                <p class="menu-price" id="menuPrice"></p>
+                <img class="menu-img" id="menuImage" src=" " alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BREND COFFEE -->
+
+      <!-- <div id="menuModal2" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo2" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName2">ブレンドコーヒー</p> 
+        <p id="menuDescription2" class="menu-description">Blend of selected coffee beans.</p>
+        <p class="menu-price" id="menuPrice2">$500</p>
+        <img class="menu-img" id="menuImage2" src="image/23157161_s.jpg" alt="Brand Coffee">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- COFFEE ORE -->
+
+      <!-- <div id="menuModal3" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo3" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName3">カフェオレ</p> 
+        <p id="menuDescription3" class="menu-description">Hot coffee with milk.</p>
+        <p class="menu-price" id="menuPrice3">$600</p>
+        <img class="menu-img" id="menuImage3" src="image/23158347_s.jpg" alt="Coffee Ore">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- COFFEE MOKA -->
+      <!-- <div id="menuModal4" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo4" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName4">カフェモカ</p> 
+        <p id="menuDescription4" class="menu-description">Coffee with chocolate.</p>
+        <p class="menu-price" id="menuPrice4">$600</p>
+        <img class="menu-img" id="menuImage4" src="image/23558520_s.jpg" alt="Coffee Moka">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- COFFEE LATTE -->
+      <!-- <div id="menuModal5" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo5" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName5">カフェラテ</p> 
+        <p id="menuDescription5" class="menu-description">Espresso with steamed milk.</p>
+        <p class="menu-price" id="menuPrice5">$600</p>
+        <img class="menu-img" id="menuImage5" src="image/4488713_s.jpg" alt="Coffee Latte">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- CAPUCHINO -->
+      <!-- <div id="menuModal6" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo6" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName6">カプチーノ</p> 
+        <p id="menuDescription6" class="menu-description">Equal parts espresso, milk, foam.</p>
+        <p class="menu-price" id="menuPrice6">$700</p>
+        <img class="menu-img" id="menuImage6" src="image/22698480_s.jpg" alt="Capuchino">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- MILK -->
+      <!-- <div id="menuModal7" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo7" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName7">ミルク</p> 
+        <p id="menuDescription7" class="menu-description">Plain milk.</p>
+        <p class="menu-price" id="menuPrice7">$500</p>
+        <img class="menu-img" id="menuImage7" src="image/23123882_s.jpg" alt="Milk">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- COCOA -->
+      <!-- <div id="menuModal8" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo8" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName8">ココア</p> 
+        <p id="menuDescription8" class="menu-description">Hot chocolate drink.</p>
+        <p class="menu-price" id="menuPrice8">$700</p>
+        <img class="menu-img" id="menuImage8" src="image/748481_s.jpg" alt="Cocoa">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- ORANGE JUICE -->
+      <!-- <div id="menuModal9" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo9" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName9">オレンジジュース</p> 
+        <p id="menuDescription9" class="menu-description">Fresh orange juice.</p>
+        <p class="menu-price" id="menuPrice9">$500</p>
+        <img class="menu-img" id="menuImage9" src="image/4446754_s.jpg" alt="Orange Juice">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- COLA -->
+      <!-- <div id="menuModal10" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo10" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName10">コーラ</p> 
+        <p id="menuDescription10" class="menu-description">Carbonated cola drink.</p>
+        <p class="menu-price" id="menuPrice10">$500</p>
+        <img class="menu-img" id="menuImage10" src="image/23466585_s.jpg" alt="Cola">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- FRENCH TOAST -->
+      <!-- <div id="menuModal11" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo11" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName11">フレンチトースト</p> 
+        <p id="menuDescription11" class="menu-description">French toast dish.</p>
+        <p class="menu-price" id="menuPrice11">$900</p>
+        <img class="menu-img" id="menuImage11" src="image/142772_s.jpg" alt="French Toast">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- Pizza Toast -->
+      <!-- <div id="menuModal12" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo12" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName12">ピザトースト</p> 
+        <p id="menuDescription12" class="menu-description">Pizza toast dish.</p>
+        <p class="menu-price" id="menuPrice12">$800</p>
+        <img class="menu-img" id="menuImage12" src="image/23158355_s.jpg" alt="Pizaa Toast">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!--CAKE  -->
+      <!-- <div id="menuModal13" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo13" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName13">日本のケーキ</p> 
+        <p id="menuDescription13" class="menu-description">Japanese cake dish.</p>
+        <p class="menu-price" id="menuPrice13">$600</p>
+        <img class="menu-img" id="menuImage13" src="image/23396792_s.jpg" alt="CAKE">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- SALAD-->
+      <!-- <div id="menuModal14" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo14" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName14">サラダ</p> 
+        <p id="menuDescription14" class="menu-description">Fresh and crisp salad.</p>
+        <p class="menu-price" id="menuPrice14">$500</p>
+        <img class="menu-img" id="menuImage14" src="image/23169633_s.jpg" alt="Salad">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- MORNING SET -->
+      <!-- <div id="menuModal15" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo15" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName15">モーニングセット</p> 
+        <p id="menuDescription15" class="menu-description">Breakfast set with assorted items.</p>
+        <p class="menu-price" id="menuPrice15">$1000</p>
+        <img class="menu-img" id="menuImage15" src="image/23157889_s.jpg" alt="Morning Set">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- LUNCH SET -->
+      <!-- <div id="menuModal16" class="modal">
+    <div class="modal-content">
+        <div class="menu-closebtn">
+            <i class="fa-solid fa-square-xmark"></i></div>
+<div id="menuInfo16" class="info">
+    <div class="modal-inner">
+    <div  class="menu-content">    
+        <p id="menuName16">ランチセット</p> 
+        <p id="menuDescription16" class="menu-description">Set meal for lunchtime.</p>
+        <p class="menu-price" id="menuPrice16">$1100</p>
+        <img class="menu-img" id="menuImage16" src="image/23584947_s.jpg" alt="Lunch Set">
+    </div>
+</div>
+</div>
+</div>
+</div> -->
+
+      <!-- ABOUT↓ -->
+      <section id="about">
+        <div class="parallax_box">
+          <div class="parallax_content ag271">ABOUT</div>
+          <div class="front_content">
+            <h2>COFFEE</h2>
+            <ul>
+              <li>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </li>
+              <li>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </li>
+              <li>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </li>
+              <li>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </li>
+            </ul>
+            <p><a href="#" class="read-more">Read More</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION ↓-->
+      <section id="location">
+        <div class="parallax_box">
+          <div class="parallax_content princess">LOCATION</div>
+          <div class="front_content">
+            <h2>OUR STORE</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5452.897321514272!2d139.70412185818932!3d35.64468034232804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b40da974663%3A0xb2440c0a4fcad64e!2z6bqm6YWS5bq1IOaBteavlOWvv-W6lw!5e0!3m2!1sja!2sjp!4v1715566862552!5m2!1sja!2sjp"
+              width="800"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div>
+              <p>
+                X-XX-XX, Ebisuminami, Shibuya-ku, Tokyo 150-0022 <br />
+                東京都渋谷区恵比寿南X-XX-XX
+              </p>
+            </div>
+            <div>
+              <p>
+                Open 7 days a Week <br />
+                9:00am to 10:00pm
+              </p>
+            </div>
+            <div>
+              <p>Tel: XX-XXXX-XXXX</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <div id="coppyright">
+      <small>&copy; COFFEE</small>
+    </div>
+  </footer>
+  <script src="./menu-info.js"></script>
+</html>

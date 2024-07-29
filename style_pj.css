@@ -1,0 +1,375 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  max-width: 4000px;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  height: 100%;
+}
+
+/* HEADER ↓ */
+#head-in {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-image {
+  /* max-width: 100%;
+     height: 100%;  */
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-image: url(img2/wallpaperbetter.jpg);
+  background-size: cover;
+  object-fit: fill;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  /* margin: 20px; */
+  /* width: auto; */
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.topnav {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  padding: -10px;
+  border-radius: 5px;
+}
+.topnav ul li a {
+  font-size: 1.25rem;
+  color: #ffff;
+  text-shadow: 0 3px 5px silver;
+  margin: 30px 40px 0 0;
+  text-decoration: none;
+  float: right;
+}
+
+.topnav ul li a:hover {
+  color: #d11919;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.topnav ul li :last-child a {
+  display: block;
+  padding: 34px 38px;
+}
+
+.centered-text {
+  /* display: flex; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 0 3px 5px silver;
+  /* justify-content: center; căn giữa theo chiều ngang */
+  /* align-items: center; căn giữa theo chiều dọc */
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_on_image */
+
+/* MENU */
+
+.front_content h2 {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  flex: 1;
+  display: inline-block;
+  border-bottom: 5px solid #d11919;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.parallax_content.santorini2560 {
+  background-image: url(img2/santorini2560.jpg);
+  font-size: 70px;
+  color: #ffff;
+  text-shadow: 0 3px 5px silver;
+  white-space: nowrap;
+  background-size: cover;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+}
+
+.parallax_content.ag271 {
+  background-image: url(img2/ag271.jpg);
+  font-size: 70px;
+  color: #ffff;
+  text-shadow: 0 3px 5px silver;
+  white-space: nowrap;
+  background-size: cover;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+}
+
+.parallax_content.princess {
+  background-image: url(img2/princess.jpg);
+  font-size: 70px;
+  color: #ffff;
+  text-shadow: 0 3px 5px silver;
+  white-space: nowrap;
+  background-size: cover;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+}
+
+.parallax_content {
+  max-width: 100%;
+  min-height: 300px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+  display: flex;
+}
+
+.parallax_box {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  /* height: 100vh; Chiều cao bằng chiều cao của cửa sổ trình duyệt */
+  /* overflow: hidden; Ẩn phần tràn ra ngoài của hình ảnh */
+}
+
+section #menu {
+  /* Section container styles */
+  position: relative; /* Enable positioning for child elements */
+  overflow: hidden;
+  /* Hide overflowing content */
+}
+
+.menu-column h3 {
+  font-size: 30px;
+  color: #000;
+  border-bottom: 5px solid #d11919;
+  display: inline-block;
+  text-align: center;
+}
+
+dd {
+  float: left;
+  margin-left: 1em;
+  width: 100%;
+  text-align: right;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+dt {
+  float: left;
+  clear: left;
+  margin-right: 0.5em;
+  width: 120px;
+  font-size: 15px;
+  color: #000;
+  border-bottom: 1px dotted #000;
+  width: 80%;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.grid-container {
+  border: #ffff;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-item-left {
+  border-right: 1px solid #000;
+  padding-right: 40px;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.grid-item-right {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ABOUT↓ */
+#about .read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none; /* Remove default underline */
+  color: #000; /* Default text color */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.front_content p {
+  text-align: center;
+}
+
+#about .read-more:hover {
+  text-decoration: underline solid #d11919;
+  cursor: pointer;
+}
+
+.front_content ul {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Chia thành hai cột với tỷ lệ bằng nhau */
+  grid-gap: 20px;
+  justify-content: space-between;
+  margin: 20px 70px;
+  /* max-width: 1000px; */
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* LOCATION↓ */
+
+#location .front_content p {
+  display: block;
+  text-align: left;
+  margin: 20px 230px;
+}
+
+.front_content iframe {
+  display: block;
+  margin: 20px auto;
+  filter: grayscale(100%);
+}
+
+/* FOOTER */
+#coppyright {
+  text-align: center;
+}
+
+#coppyright small {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+/* MODAL WINDOW*/
+
+/* MODAL (background) */
+
+.myBtn {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: inherit;
+  transition: color 0.3s;
+}
+
+.myBtn:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal {
+  max-width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  text-align: center;
+  /* overflow: hidden; */
+  scrollbar-width: none;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  /* overflow-y: none; */
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+  /* overflow: hidden; */
+  scrollbar-width: none;
+}
+
+/* https://www.w3schools.com/howto/howto_css_modals.asp */
+.menu-content p {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  margin: 1px;
+  padding: 5px;
+}
+
+.menu-description {
+  text-align: justify;
+  color: #d11919;
+}
+
+.menu-content img {
+  object-fit: fill;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-closebtn {
+  color: #000000;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  float: left;
+  transition: color 0.3s;
+  position: absolute;
+}
+
+.menu-closebtn :hover {
+  color: #ff0000;
+  cursor: pointer;
+}
